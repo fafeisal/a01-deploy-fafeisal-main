@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    background-color: #808080;
+    height: 100%;
+    width: auto;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 10%;
+}
+
+aside {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    margin: 3%;
+}
+
+article {
+    grid-column: 2;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    margin: 3%;
+    padding: 2rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #D3D3D3;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+input {
+    background-color: #CBFFCB;
+    border-radius: 0.25rem;
+}
+
+input:hover {
+    background-color: #98BD98;
+}
+
+.aside-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 90%;
+    margin: 5%;
+    border-radius: 0.5rem;
+    border: solid #000000;
+}
+
+#home-img {
+    background-image: url("../img/gorgon.jpg");  
+}
+
+#norse-img {
+    background-image: url("../img/norse.jpg");
+}
+
+#greek-img {
+    background-image: url("../img/greek.jpg");
+    background-position: 90% 50%;
+}
+
+.references {
+    text-align: center;
+    font-size: larger;
+    padding-left: 2rem;
+}
+
+.nav-items {
+    margin: 1rem;
+    background-color: #CBFFCB;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.nav-items:hover, .nav-items:focus {
+    background-color: #98BD98;
+    color: #000000;
+}
+
+#home {
+    width: 50%;
+    height: 70%;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    border: solid #000000;
+}
